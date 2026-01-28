@@ -2,7 +2,6 @@
 
 A production-quality web application for testing browser screen sharing capabilities using the native Web API (`getDisplayMedia`). Built with Next.js, TypeScript, and Tailwind CSS.
 
-![Screen Share Test App](./screenshots/homepage.png)
 
 ## 🎯 Features
 
