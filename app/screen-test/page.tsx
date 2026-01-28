@@ -171,9 +171,8 @@ export default function ScreenTestPage() {
         {/* Stream Stopped - Show Retry Options */}
         {!isActive &&
           permissionState === PermissionState.IDLE &&
-          (permissionState !== PermissionState.REQUESTING) &&
           stream === null &&
-          (error !== null || window.location.pathname === '/screen-test') && (
+          error !== null  && (
             <div className="mt-6 bg-white rounded-2xl shadow-xl p-6 md:p-8 text-center space-y-6">
               <div className="text-6xl mb-4">✋</div>
               <div>
